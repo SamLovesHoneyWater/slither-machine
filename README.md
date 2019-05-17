@@ -9,4 +9,4 @@ I'm kinda new to this, so if there are any mistakes or inefficiencies in my code
 
 3) To use your model, specify the name of the model file before running "use.py". Configure your game window as you did in "1)". Press and hold "c" during the game to let your model take control.
 
-# Currently, only the bearing of the snake is considered. There is no classification model to determine whether to boost speed or not, but the speeding data are stored anyways, just in case of future work. Note that they are not stored one-hot, but as binaries.
+Currently, only the bearing of the snake is considered. There is no classification model to determine whether to boost speed or not, but the speeding data are stored anyways, just in case of future work. Note that they are not stored one-hot, but as binaries.
