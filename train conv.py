@@ -103,8 +103,8 @@ for i in range(0,num_sample_iterations):
         # Save model
         model.save(model_file_name)
         print('Saved model as \''+model_file_name+'\'')
-        print('Iteration '+str(i+1)+' complete!\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n')
-        time.sleep(3)
+        print('Iteration '+str(i+1)+' complete!\n----------------\n')
+        time.sleep(.1)
 
 # Plot test result
 print('all_test_x length:',len(all_test_x))
