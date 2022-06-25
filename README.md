@@ -8,6 +8,6 @@ This is an improvised AI for the game Slither.
 
 3) To use your model, specify the name of the model file before running "use.py". Configure your game window as you did in step one. Press and hold the "c" key during the game to let your model take control. Release "c" to restore manual control.
 
-Note that the model currently only learns by immitating the gameplay of its (labeled) training data. Reinforcement learning is yet to be implemented.
+Note that the model currently only learns by immitating the gameplay of its (automatically labeled) training data. Reinforcement learning is yet to be implemented.
 
 Currently, only the bearing of the snake is considered. There is no classification model to determine whether to boost speed or not, but the speeding data are stored anyways to pave the way for future work. Note that they are not stored as one-hot, but as binaries.
